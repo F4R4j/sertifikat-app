@@ -6,7 +6,7 @@ const GOLD = rgb(0.55, 0.47, 0.27);
 // Coordinates measured against the blank line on the template (PDF points,
 // origin at bottom-left). The page is 842.16 x 595.44.
 const PAGE_CENTER_X = 842.16 / 2;
-const NAME_BASELINE_Y = 300;
+const NAME_BASELINE_Y = 299;
 const FONT_SIZE = 24;
 
 export async function generateCertificate(name) {
